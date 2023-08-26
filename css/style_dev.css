@@ -37,12 +37,12 @@ a{
     flex-direction: column;
     border-radius: 8px;
     margin: 32px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 24px;
+    margin-right: 24px;
     justify-content: flex-end;
-    color: #000;
-    padding: 8px;
-    background: linear-gradient(to bottom, #20065c 20%, #F1FAEE 60%);
+    color: rgb(85, 26, 139);
+    padding: 16px;
+    background: linear-gradient(to bottom, rgba(134,230,48,0.9735352759267769) 0%,  white 67%);
     box-shadow: 4px 4px 10px rgba(47, 47, 47, 0.25);
   }
 
@@ -67,6 +67,9 @@ a{
     align-self: center;
   }
 
+  .profile{
+    border-radius: 100%;
+  }
 
 
 
