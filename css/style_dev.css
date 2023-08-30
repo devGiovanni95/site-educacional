@@ -1,9 +1,5 @@
-/*Elementos compartilhados entre as telas*/
 body{
-  background-color: #ffffff;
   overflow-x: hidden;
-  overflow-x: hidden;
-  overflow-y: scroll;
   margin: 0 0;
   padding: 0;
 }
@@ -28,66 +24,26 @@ a{
   text-decoration: none;
 }
 
+footer{
+  display: flex;
+  text-align:center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(81deg, rgba(18,202,212,1) 0%, rgba(134,230,48,0.9735352759267769) 67%);
+}
+
 header p{
   margin-left: 25px;
   font-size: 16px;
 }
 
-section{
-  margin-top: 25px;
-  display: flex;  
-  justify-content: center;
-  align-items: center;
-}
-
-section a {
-  margin-left: 20px;
-}
-
-footer{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-width: 100%;
-background: linear-gradient(81deg, rgba(18,202,212,1) 0%, rgba(134,230,48,0.9735352759267769) 67%);
-padding: 10px;
-}
-
-footer p{
-margin-left: 25px;
-font-size: 15px;
-}
-
-/*Elementos do sobre*/
-#sobre{
-  margin-top: 80px;
-  margin-left: 32px;
-  margin-right: 32px;
-  display: flex;
-  color: #000000;
-}
-
-#sobre div{
-  margin: 32px;
-}
-
-#sobre div p{
-  font-size: 22px;
-  line-height: 25px;
-  margin-bottom: 0px;
-  text-indent: 4rem;
-}
-
-#sobre img{
-  margin: 5px;
-  margin-top: 5x;
-  border-radius: 8px;
-}
-
-/*Fotos da equipe*/
+  
   #desenvolvedores{
-    margin-top: 15px;
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -104,7 +60,7 @@ font-size: 15px;
     margin-left: 24px;
     margin-right: 24px;
     justify-content: flex-end;
-    color: rgb(0, 0, 0);
+    color: rgb(85, 26, 139);
     padding: 16px;
     background: linear-gradient(to bottom, rgba(134,230,48,0.9735352759267769) 0%,  white 67%);
     box-shadow: 4px 4px 10px rgba(47, 47, 47, 0.25);
